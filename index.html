@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edutee Global - Inspiring Education, Growing Communities. </title>
+    <link rel="icon" href="img/logo.png" type="image/jpg" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.cdnfonts.com/css/gotham-6" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+          @import url('https://fonts.cdnfonts.com/css/Gotham');
+        * {
+            font-family: 'Gotham', sans-serif;
+        }
+
+        .navbar {
+            background-color: transparent !important;
+            box-shadow: none !important;
+            font-size: 16px;
+        }
+
+        .navbar-nav > li {
+            padding-left: 22px;
+            padding-right: 22px;
+        }
+
+        .header {
+            background-color: #980000;
+            padding: 10px 10px;
+        }
+
+       
+
+        .header .container-fluid {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .header .p-left p {
+            color: white;
+            letter-spacing: -2px;
+            margin: 0;
+        }
+
+        .header .p-right {
+            display: flex;
+            gap: 10px;
+        }
+
+        .header .p-right a {
+            color: white;
+        }
+
+        /* Responsive adjustments */
+        @media (min-width: 768px) {
+            .header {
+                padding: 15px 20px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .header {
+                padding: 15px 40px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .header {
+                padding: 15px 308px;
+            }
+        }
+
+        .banner{
+            background:url('img/banner1.jpg');
+            height:400px;
+            min-height: 700px;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+      
+        /* CSS for image zoom effect */
+.image-link {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.zoomable {
+    transition: transform 0.3s ease;
+    transform: scale(1); /* Normal state */
+}
+
+.zoomable:hover {
+    transform: scale(1.1); /* Zoomed state */
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <br>
+        <div class="container-fluid">
+
+      
+            <div class="p-left">
+                <p>Stay connected with us</p>
+            </div>
+            <div class="p-right">
+                <a target="_blank" href="#" role="button"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href="#" role="button"><i class="fab fa-whatsapp"></i></a>
+                <a target="_blank" href="#" role="button"><i class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="#" role="button"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" class="img-fluid" width="150px" alt="Logo" loading="lazy"/>
+            </a>
+            <button
+                data-mdb-collapse-init
+                class="navbar-toggler"
+                type="button"
+                data-mdb-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                style="background-color: black; padding:9px;">
+                <i class="fas fa-bars" style="color:white;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: black;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutus" style="color: rgb(0, 0, 0);">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services" style="color: rgb(0, 0, 0);">Services</a>
+                    </li>
+                </ul>
+                <form class="d-flex input-group w-auto">
+                    <ul class="navbar-nav w-300">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus" style="color: rgb(0, 0, 0);">Get Involved</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link btn btn-sm" href="https://drive.google.com/file/d/1sw01bLs3Vhnmo9JweZC7UVrR46sbxcCG/view?usp=sharing" rel="nofollow" style="font-weight: bold; padding: 13px; font-size: 15px; background-color: black; text-transform: none; color: white; font-weight: bold; border-radius: 20px;">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header-footer" style=" background-color: black;
+    padding: 10px;">
+
+        <div class="container">
+            <br>
+    <a href="#">     <p style="text-align:center; font-size:20px; color:white; letter-spacing: -2px; font-weight:800;"> BOOK A 30 MINUTES FREE CONSULTATION WITH US TODAY  <i class="fa fa-circle-chevron-right"></i></p>  </a> 
+ </div>
+    </div>
+
+    <div class="banner">
+
+
+<div class="container">
+
+
+<br><br><br><br>
+   <h1 style="color:white; padding:15px; font-weight: 800; letter-spacing: -6px; font-size: 60px;"> WHO WE ARE </h1> 
+   <p style="color:white; padding:15px; font-size:24px; letter-spacing: -2px;">
+    At EduTee global, we centre the experiences and voices of <br>
+    young people in education through research, advocacy, <br>
+    consultancy, information sharing and mentorship.
+   </p>
+
+   <a target="_blank" class="btn btn-sm" href="https://drive.google.com/file/d/1sw01bLs3Vhnmo9JweZC7UVrR46sbxcCG/view?usp=sharing" rel="nofollow" style="font-weight: bold; width:170px; padding: 13px; font-size: 20px; background-color: black; text-transform: none; color: white; font-weight: bold; border-radius: 30px; letter-spacing:-1px;">
+    Learn More
+</a>
+
+<a target="_blank" class="btn btn-sm" href="https://drive.google.com/file/d/1sw01bLs3Vhnmo9JweZC7UVrR46sbxcCG/view?usp=sharing" rel="nofollow" style="font-weight: bold; width:170px; padding: 13px; font-size: 20px; background-color: white; text-transform: none; color: black; font-weight: bold; border-radius: 30px; letter-spacing:-1px;">
+   Get Involved
+</a>
+
+
+    
+</div>
+
+    </div>
+
+
+   <br><br>   <br><br>
+
+  <div class="container">
+
+<h4 style="letter-spacing:-2px; text-align: center; "> WHY ARE WE HERE ? </h4>
+<h2 style="letter-spacing:-9px; text-align: center; color:#980000; font-size:67px; font-weight: 800; " > OUR VISION IS SIMPLE </h2>
+
+<br>
+
+<p style="letter-spacing:-2px; text-align: center; font-size: 25px; "> We want to make education equitable, inclusive and accessible. <br>
+    We cannot do it without you, we need your voice, thoughts and perspectives.  </p>
+
+    <br>
+
+
+    <div class="row">
+
+<div class="col-md-4 mb-3">
+
+    <a href="#" class="image-link">
+    <img src="img/pic1.jpg" class="img-fluid zoomable"></a>
+
+</div>
+
+<div class="col-md-4 mb-3">
+
+    <a href="#" class="image-link">
+        <img src="img/pic2.jpg" class="img-fluid zoomable"></a>
+
+</div>
+
+
+<div class="col-md-4 mb-3">
+
+    <a href="#" class="image-link">
+        <img src="img/pic3.jpg" class="img-fluid zoomable"></a>
+
+</div>
+
+
+    </div>
+
+
+  </div>
+
+
+  <br><br>   <br><br>
+
+  <div class="banner2" style="background:url('img/banner2.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+">
+
+
+    <div class="container">
+    
+    
+    <br><br><br><br> <br><br>
+
+
+<div class="row">
+
+<div class="col-md-6 mb-3">
+
+    <h4 style="letter-spacing:-2px; color: white; font-size: 30px; "> HOW DID WE GET HERE ? </h4>
+<h2 style="letter-spacing:-10px; color:#980000; font-size:79px; font-weight: 800; " > OUR STORY </h2>
+
+</div>
+
+<div class="col-md-6 mb-3">
+
+    <h4 style="letter-spacing:-2px; color: white; "> 
+        EduTee started as a campaign, born from the passion for 
+        underrepresented students in Higher Education to have a 
+        voice in their education. Whilst the passion has grown 
+        beyond Higher Education Institutions, every child, and 
+        every learner from all backgrounds must continue to have
+         access to education. That is an education that is equitable, 
+        inclusive, accessible and reflects them. 
+
+    
+    </h4>
+
+
+    <BR>
+
+        <h4 style="letter-spacing:-2px; color: white;; "> 
+            Policies and procedures that cater to enhancements in 
+            education are done to students, without them, and this is 
+            where we close the gap.  
+            
+        
+        
+        </h4>
+
+
+
+    <BR>
+
+        <h4 style="letter-spacing:-2px; color: white;; "> 
+            
+            We want to work with learners, schools, Higher Education
+             Institutions and organisations to invest in education, co-create 
+            student experiences, and empower the future generation. 
+            
+             
+        
+        
+        </h4>
+
+
+
+</div>
+
+
+</div>
+
+    </div>
+
+    </div>
+
+
+    <br> <br>
+    <br> <br>
+
+
+      <div class="container">
+    <div class="row">
+
+        <div class="col-md-4 mb-3">
+
+<div class="stickytext"  style="position: sticky; top: 50px; z-index: 10;">
+         
+    <a href="#" class="image-link">
+        <img src="img/ofure.jpg" class="img-fluid zoomable"></a>
+
+        </div>
+
+        </div>
+
+
+        <div class="col-md-8 mb-3">
+
+            <h4 style="letter-spacing:-2px; color: BLACK; font-size: 20px; "> WHOSE IDEA IS THIS ? </h4>
+            <h2 style="letter-spacing:-10px; color:#980000; font-size:70px; font-weight: 800; " > OUR FOUNDER </h2>
+            
+
+            <h4 style="letter-spacing:-2px; color: black; text-align: justify; line-height: 30px;  "> 
+          
+                Our founder, Theresa Ofure Ogbekhiulu, is a young leader 
+in education and social justice. She is a public speaker and
+a seasoned workshop facilitator for anti-racism, decolonising
+in Higher Education and creating inclusive spaces.
+</h4>
+
+
+
+<h4 style="letter-spacing:-2px; color: black; text-align: justify; "> 
+Theresa was awarded the Black History Wales Academic 
+achievement award in 2022 and her story was featured 
+on BBC Wales. She was nominated for a young leader 
+award, in recognition of my contribution to the community. 
+
+</h4>
+
+<h4 style="letter-spacing:-2px; color: black; text-align: justify; "> 
+
+As a School Governor, Political Education officer, Swansea 
+West Labour Party, and Chair, Swansea Young Labour, she 
+understands the importance of getting involved in the wheel 
+of change, and not standing on the sidelines.  
+
+</h4>
+
+<h4 style="letter-spacing:-2px; color: black; text-align: justify; "> 
+With a robust academic background in Wales, comprising a
+two master’s degrees in an ESRC-accredited MSc in Social 
+Research Methods, and an MA in Communications, Media 
+Practice & Public Relations, both with a distinction and an 
+Undergraduate in BA in Communications and Public Relations, 
+with a first-class all at Swansea University, Theresa is 
+experienced in research and utilising data for advocacy.
+</h4>
+
+<h4 style="letter-spacing:-2px; color: black; text-align: justify; "> 
+Additionally, being the Senior Project Advisor (Race Equality/ 
+EDI) at Swansea University, she is responsible for leading the
+EDI initiatives across the University and developing an action 
+plan for race equality. 
+</h4>
+
+<h4 style="letter-spacing:-2px; color: black; text-align: justify; "> 
+In 2019 and 2020, I was elected Education Officer and trustee 
+at Swansea University’s Students’ Union and the University’s 
+Council, representing the academic interests of over 20,000 
+students. In these roles, I campaigned for, championed, and 
+supported students from minorities' backgrounds, including 
+students from minority ethnic backgrounds. 
+
+</h4>
+
+
+<h4 style="letter-spacing:-2px; color: black; text-align: justify; "> 
+In 2019, the Black 
+History Month campaign led by me for Swansea University 
+Student’s Union, won the National Union of Students Wales 
+Liberation Campaign of the Year award. 
+
+ 
+ 
+
+            </h4>
+        
+            <h4 style="letter-spacing:-2px; color: black; text-align: justify; "> 
+                In her spare time, she enjoys swimming and teaching. 
+                She has recently completed a swim assistant teaching
+                qualification with Swim Wales, to encourage and teach 
+                more people how to swim through the Black 
+                Swimming Association. 
+                 
+                
+                            </h4>
+                        
+
+
+        </div>
+
+      </div>
+      </div>
+  
+
+      <br><br>
+
+      <div class="newsection" style="padding:12px; background-color: #980000;">
+
+        <br> <br>
+        <br> <br>
+        <div class="container">
+        <h4 style="letter-spacing:-2px; color: white; font-size: 20px; "> WHAT CAN WE DO FOR YOU ? </h4>
+        <h2 style="letter-spacing:-8px; color:white; font-size:70px; font-weight: 800; " > OUR SERVICES </h2>
+
+
+        <BR><BR>
+<div class="row">
+
+
+    <div class="col-md-6 mb-3">
+        <h4 style="color:white; font-weight: 800;"> CONSULTANCY </h4>
+        <p style="color:white; font-size:20px;"> Book a 30-minutes FREE consultation to 
+            discuss your needs and how we can 
+            support you.</p>
+
+            <h2 style="letter-spacing:-8px; color:white; font-size:60px; font-weight: 800; " > WORKSHOPS </h2>
+<BR>
+            <h4 style="color:white; font-weight: 800;"> Anti-Racism </h4>
+            <p style="color:white; font-size:20px;"> 
+                Engage in transformative workshops that 
+                address and challenge systemic racism 
+                within educational settings.
+            </p>
+
+            <BR>
+                <h4 style="color:white; font-weight: 800;"> Education </h4>
+                <p style="color:white; font-size:20px;"> 
+                    Participate in sessions focused on innovative
+                    teaching methods, inclusive curricula, 
+                    and student-centered learning.
+                </p>
+             
+                <BR>
+                    <h4 style="color:white; font-weight: 800;"> Empowerment </h4>
+                    <p style="color:white; font-size:20px;"> 
+                        Empower students and educators with tools
+                        and strategies to create inclusive and 
+                        equitable learning environments.
+                    </p>
+         
+     
+    </div>
+
+
+
+    <div class="col-md-6 mb-3">
+        <h4 style="color:white; font-weight: 800;"> SCHOOL EVENTS </h4>
+        <p style="color:white; font-size:20px;"> We organize and facilitate events within 
+            schools to promote inclusive education, 
+            celebrate diversity, and support student 
+            engagement.</p>
+
+        
+<BR>
+            <h4 style="color:white; font-weight: 800;"> COMMUNITY EVENTS </h4>
+            <p style="color:white; font-size:20px;"> 
+                Join us in community-based events designed
+                to bring together learners, educators, and 
+                community members to foster a culture of 
+                learning and mutual support.
+            </p>
+
+            <BR>
+                <h4 style="color:white; font-weight: 800;"> RESEARCH </h4>
+                <p style="color:white; font-size:20px;"> 
+                    Our research services provide in-depth analysis 
+                    and insights into various aspects of education, 
+                    focusing on inclusivity, accessibility, and the 
+                    transformative power of learning. 
+                    
+                    
+                </p>
+             
+               
+         
+     
+    </div>
+
+
+</div>
+
+</div>
+
+      </div>
+
+
+      <div class="sectionew">
+
+
+        <div class="row">
+
+<div class="col-md-6 " style="background:url('img/pic4.jpg'); height:700px; background-size: cover; background-repeat: none; background-position: center; ">
+
+
+</div>
+
+<div class="col-md-6 " style="background-color: black;">
+
+    <div class="container">
+
+        <br> <br>
+        <br> <br>
+
+    <h4 style="letter-spacing:-5px; color: white; font-size: 50px; "> HOW CAN YOU WORK WITH US ? </h4>
+
+
+    <h4 style="color:#d40202; font-weight: 800;"> VOLUNTEER </h4>
+    <p style="color:white; font-size:20px;"> 
+        Join our team of passionate individuals.
+        
+        
+    </p>
+
+
+
+    <h4 style="color:#d40202; font-weight: 800;"> EDUTEENS</h4>
+    <p style="color:white; font-size:20px;"> 
+        Empower young people through our programs.
+        
+        
+    </p>
+
+
+
+    <h4 style="color:#d40202; font-weight: 800;"> ADVOCATE </h4>
+    <p style="color:white; font-size:20px;"> 
+     Be a voice for our cause.
+        
+        
+    </p>
+
+
+    <h4 style="color:#d40202; font-weight: 800;"> PARTNER WITH US </h4>
+    
+    <h4 style="color:#d40202; font-weight: 800;"> Talks & Workshops </h4>
+    <p style="color:white; font-size:20px;"> 
+   Share our message with your audience
+        
+        
+    </p>
+
+    <h4 style="color:#d40202; font-weight: 800;"> Conferences & Stalls </h4>
+    <p style="color:white; font-size:20px;"> 
+        Collaborate with us on events.
+        
+        
+    </p>
+
+    </div>
+
+</div>
+
+
+        </div>
+
+
+      </div>
+
+
+      <br> <br>
+      <br> <br>
+
+      <div class="container">
+
+        <h4 style="letter-spacing:-2px; text-align: center; "> WHY NOT CONNECT WITH US AND FIND OUT MORE </h4>
+        <h2 style="letter-spacing:-7px; text-align: center; color:#980000; font-size:57px; font-weight: 800; " > 
+            Follow us on social media and <br>
+subscribe for the latest news and <br>
+updates on our programs and events
+
+
+            </h2>
+
+<br>
+
+            <center>
+
+                <form>
+
+                    <input type="email" class="form-control" placeholder="Email" style="border-radius:45px; background-color: #DBDBDB; color:black; border:3px solid black; font-size:20px; padding:23px;" >
+<BR>
+<input type="submit" class="btn btn-lg" style="border-radius:45px; font-size: 29px ; background-color: #980000; color:white; padding:20px; width:300px;" value="SUBSCRIBE">
+                </form>
+
+
+
+                <br><br>
+
+                <a href="#" class="image-link">
+                    <img src="img/pic5.jpg" class="img-fluid zoomable" width="500px"></a>
+
+            </center>
+
+            </div>
+
+            <div class="header" style="background-color: black;">
+                <br>
+                <div class="container-fluid">
+        
+              
+                    <div class="p-left">
+                        <p>Stay connected with us</p>
+                    </div>
+                    <div class="p-right">
+                        <a target="_blank" href="#" role="button"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="#" role="button"><i class="fab fa-whatsapp"></i></a>
+                        <a target="_blank" href="#" role="button"><i class="fab fa-linkedin"></i></a>
+                        <a target="_blank" href="#" role="button"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        
+ <!-- Footer -->
+ <footer class="text-center text-lg-start  text-muted" style="background-color:#980000;" data-aos="fade-up" id="footer">
+    <!-- Section: Social media -->
+   
+ 
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start  p-4">
+        
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-4 mx-auto mb-4">
+            <!-- Content -->
+    <img src="img/footerlogo.png" class="img-fluid" width="200px">
+           
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class=" fw-bold mb-4" style="color:white;">
+            OUR SERVICES
+            </h6>
+            <p style="font-size:12px; color:white;">
+              <a href="#aboutus" class="text-reset" > Consultancy </a>
+            </p>
+
+            <p style="font-size:12px; color:white;">
+
+              <a href="#services" class="text-reset" style="color:white;"> Workshops </a>
+            </p>
+            <p style="font-size:12px; color:white; ">
+
+              <a href="#!" class="text-reset" style="color:white;" > School Events </a>
+            </p>
+
+            <p style="font-size:12px; color:white; ">
+
+                <a href="#!" class="text-reset" style="color:white;" > Community Events </a>
+              </p>
+
+
+              <p style="font-size:12px; color:white; ">
+
+                <a href="#!" class="text-reset" style="color:white;" > Research </a>
+              </p>
+      
+          </div>
+          <!-- Grid column -->
+
+
+           <!-- Grid column -->
+           <div class="col-md-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class=" fw-bold mb-4" style="color:white;">
+           QUICK LINKS
+            </h6>
+            <p style="font-size:12px; color:white;">
+              <a href="#aboutus" class="text-reset" > Home </a>
+            </p>
+
+            <p style="font-size:12px; color:white;">
+
+              <a href="#services" class="text-reset" style="color:white;"> About Us </a>
+            </p>
+            <p style="font-size:12px; color:white; ">
+
+              <a href="#!" class="text-reset" style="color:white;" > Services </a>
+            </p>
+
+            <p style="font-size:12px; color:white; ">
+
+                <a href="#!" class="text-reset" style="color:white;" > Get Involved </a>
+              </p>
+
+
+              <p style="font-size:12px; color:white; ">
+
+                <a href="#!" class="text-reset" style="color:white;" > Volunteer </a>
+              </p>
+      
+          </div>
+          <!-- Grid column -->
+
+          
+  
+          <!-- Grid column -->
+          <div class="col-md-3 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class=" fw-bold mb-4" style="color:white;">
+              Contact Us
+             </h6>
+             <p style="font-size:12px; color:white;">
+              Join our community of advocates
+             </p>
+          
+ 
+             <a href="tel:+2349029944727" class="btn btn-outline-white" style="border-radius:25px;" > JOIN HERE </a>
+            
+             <BR>  <BR>
+
+             <p style="font-size:12px; color:white; ">
+             <a href="#" class="text-reset" > <i class="fab fa-whatsapp"> </i> Tel: 07700 5403 2434
+</a>
+<br>
+<a href="#" class="text-reset" > <i class="fa fa-envelope"> </i> Email: edutee@gmail.com
+</a>
+             </p>
+           
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+           
+            <h6 class=" fw-bold mb-4" style="color:white;">
+            <i class="fa fa-clock"></i> Working Hours
+             </h6>
+             <p style="font-size:12px; color:white;">
+               <a href="#!" class="text-reset" > 
+               Mon-Fri: 8:00 am - 9:00 pm <br>
+Sat-Sun: Closed <br>
+
+            </a>
+             </p>
+            
+
+
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+
+
+    <!-- Copyright -->
+    <div class="text-center container p-4" style="background-color:#980000; color:white; ">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold"  href="https://mojutoju.github.io" style="color:#FF00A8;"> Edutee Global : Inspiring Education Growing Communities</a> 
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  
+    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"
+></script>
+
+</body>
+</html>
